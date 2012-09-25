@@ -1,0 +1,333 @@
+The system is: Darwin - 11.4.0 - i386
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3220257725/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3220257725.dir/build.make CMakeFiles/cmTryCompileExec3220257725.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3220257725.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3220257725.dir/testCXXCompiler.cxx.o -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3220257725
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3220257725.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3220257725.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3220257725  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2815063262/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2815063262.dir/build.make CMakeFiles/cmTryCompileExec2815063262.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec2815063262
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2815063262.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2815063262   
+Apple clang version 3.1 (tags/Apple/clang-318.0.61) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin11.4.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.4 -o cmTryCompileExec2815063262 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/3.1/lib/darwin/libclang_rt.osx.a
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2815063262/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2815063262.dir/build.make CMakeFiles/cmTryCompileExec2815063262.dir/build]
+  ignore line: ["/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec2815063262]
+  ignore line: ["/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2815063262.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2815063262   ]
+  ignore line: [Apple clang version 3.1 (tags/Apple/clang-318.0.61) (based on LLVM 3.1svn)]
+  ignore line: [Target: x86_64-apple-darwin11.4.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.7.4 -o cmTryCompileExec2815063262 -lcrt1.10.6.o -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/3.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2815063262] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2815063262.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/3.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/3.1/lib/darwin/libclang_rt.osx.a]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  implicit libs: [stdc++;/usr/bin/../lib/clang/3.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3101262599/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3101262599.dir/build.make CMakeFiles/cmTryCompileExec3101262599.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3101262599.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3101262599.dir/testCCompiler.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3101262599
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3101262599.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3101262599.dir/testCCompiler.c.o  -o cmTryCompileExec3101262599  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1591717638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1591717638.dir/build.make CMakeFiles/cmTryCompileExec1591717638.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec1591717638
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1591717638.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1591717638   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.9~22/src/configure --disable-checking --enable-werror --prefix=/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.9~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.9.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec1591717638 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1591717638/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1591717638.dir/build.make CMakeFiles/cmTryCompileExec1591717638.dir/build]
+  ignore line: ["/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec1591717638]
+  ignore line: ["/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1591717638.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1591717638   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.9~22/src/configure --disable-checking --enable-werror --prefix=/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.9~22/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.9.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.7.4 -weak_reference_mismatches non-weak -o cmTryCompileExec1591717638 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/lib/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.7.4] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1591717638] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/lib/i686-apple-darwin11/4.2.1] ==> dir [/usr/lib/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1591717638.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/lib/i686-apple-darwin11/4.2.1] ==> [/usr/lib/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: []
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/lib/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib]
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2572793377/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2572793377.dir/build.make CMakeFiles/cmTryCompileExec2572793377.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2572793377.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec2572793377.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec2572793377
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2572793377.dir/link.txt --verbose=1
+/usr/bin/gcc       -DCHECK_FUNCTION_EXISTS=fseeko -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2572793377.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2572793377  
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec378410331/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec378410331.dir/build.make CMakeFiles/cmTryCompileExec378410331.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec378410331.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec378410331.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec378410331
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec378410331.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec378410331.dir/CheckIncludeFile.c.o  -o cmTryCompileExec378410331  
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2348147231/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2348147231.dir/build.make CMakeFiles/cmTryCompileExec2348147231.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2348147231.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2348147231.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2348147231
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2348147231.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2348147231.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2348147231  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2698280125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2698280125.dir/build.make CMakeFiles/cmTryCompileExec2698280125.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2698280125.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2698280125.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2698280125
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2698280125.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2698280125.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2698280125  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2490918329/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2490918329.dir/build.make CMakeFiles/cmTryCompileExec2490918329.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2490918329.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2490918329.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2490918329
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2490918329.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2490918329.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2490918329  
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec249025090/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec249025090.dir/build.make CMakeFiles/cmTryCompileExec249025090.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec249025090.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec249025090.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec249025090
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec249025090.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec249025090.dir/CheckIncludeFile.c.o  -o cmTryCompileExec249025090  
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1350820475/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1350820475.dir/build.make CMakeFiles/cmTryCompileExec1350820475.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1350820475.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1350820475.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1350820475
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1350820475.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1350820475.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1350820475  
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4213478955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4213478955.dir/build.make CMakeFiles/cmTryCompileExec4213478955.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4213478955.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTryCompileExec4213478955.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec4213478955
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec4213478955.dir/link.txt --verbose=1
+/usr/bin/gcc       -DCHECK_FUNCTION_EXISTS=mmap -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4213478955.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4213478955  
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec874396634/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec874396634.dir/build.make CMakeFiles/cmTryCompileExec874396634.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec874396634.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec874396634.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec874396634
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec874396634.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec874396634.dir/CheckIncludeFile.c.o  -o cmTryCompileExec874396634  
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3120808746/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3120808746.dir/build.make CMakeFiles/cmTryCompileExec3120808746.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3120808746.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3120808746.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3120808746
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3120808746.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3120808746.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3120808746  
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1252441386/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1252441386.dir/build.make CMakeFiles/cmTryCompileExec1252441386.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1252441386.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1252441386.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1252441386
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec1252441386.dir/link.txt --verbose=1
+/usr/bin/gcc        -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1252441386.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1252441386  
+
+

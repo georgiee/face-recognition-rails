@@ -1,0 +1,140 @@
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2648464476/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2648464476.dir/build.make CMakeFiles/cmTryCompileExec2648464476.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2648464476.dir/OFF64_T.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2648464476.dir/OFF64_T.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19: error: ‘off64_t’ undeclared here (not in a function)
+make[1]: *** [CMakeFiles/cmTryCompileExec2648464476.dir/OFF64_T.c.o] Error 1
+make: *** [cmTryCompileExec2648464476/fast] Error 2
+
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3347540592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3347540592.dir/build.make CMakeFiles/cmTryCompileExec3347540592.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3347540592.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3347540592.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: error: io.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec3347540592.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec3347540592/fast] Error 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec246702218/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec246702218.dir/build.make CMakeFiles/cmTryCompileExec246702218.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec246702218.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=jbg_newlen   -o CMakeFiles/cmTryCompileExec246702218.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-9.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec246702218
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec246702218.dir/link.txt --verbose=1
+/usr/bin/gcc       -DCHECK_FUNCTION_EXISTS=jbg_newlen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec246702218.dir/CheckFunctionExists.c.o  -o cmTryCompileExec246702218  
+Undefined symbols for architecture x86_64:
+  "_jbg_newlen", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec246702218] Error 1
+make: *** [cmTryCompileExec246702218/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec718675708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec718675708.dir/build.make CMakeFiles/cmTryCompileExec718675708.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec718675708.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec718675708.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: error: libavformat/avformat.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec718675708.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec718675708/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1838725639/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1838725639.dir/build.make CMakeFiles/cmTryCompileExec1838725639.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1838725639.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1838725639.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/OpenCV-2.4.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec1838725639.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1838725639/fast] Error 2
+
+
+Determining if the include file libavformat/avformat.h exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1112677246/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1112677246.dir/build.make CMakeFiles/cmTryCompileExec1112677246.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1112677246.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1112677246.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:34: error: libavformat/avformat.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec1112677246.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1112677246/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1840915247/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1840915247.dir/build.make CMakeFiles/cmTryCompileExec1840915247.dir/build
+"/Applications/CMake 2.8-9.app/Contents/bin/cmake" -E cmake_progress_report /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1840915247.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1840915247.dir/CheckIncludeFile.c.o   -c /Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/george/job/__webdocs/webguerillas/opencv/project/facereg/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error: ffmpeg/avformat.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec1840915247.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec1840915247/fast] Error 2
+
+

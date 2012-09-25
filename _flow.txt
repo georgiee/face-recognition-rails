@@ -1,0 +1,16 @@
+#xcode project
+via http://opencv.willowgarage.com/wiki/UsingOpenCVUnderOSX
+Create a new Xcode project using the Command Line Utility/Standard Tool template
+Select Project -> Edit Project Settings
+Select the Build tab
+Set Configuration to All Configurations
+In the Architectures section, double-click Valid Architectures and remove all the PPC architectures (If you built the libraries as 64-bit only, remove i386 as well)
+In the Search Paths section set Header Search Paths to /usr/local/include (/opt/local/include if you used MacPorts)
+Close the Project Info window
+Select Project -> New Group and create a group called OpenCV Frameworks
+With the new group selected, select Project -> Add to Project…
+Press the "/" key to get the Go to the folder prompt
+Enter /usr/local/lib (/opt/local/lib if you used MacPorts)
+Select libopencv_core.dylib, libopencv_highgui.dylib, and any other libraries required by your project.
+Click Add
+Uncheck Copy Items… and click Add
