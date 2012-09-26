@@ -31,7 +31,6 @@ class App(object):
         ret, self.frame = self.cam.read()
         cv2.namedWindow('camshift')
         cv2.setMouseCallback('camshift', self.onmouse)
-
         self.selection = None
         self.drag_start = None
         self.tracking_state = 0
